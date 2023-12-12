@@ -1,7 +1,5 @@
-import { useRouter } from "next/router";
 import styles from "./styles.module.css";
 export default function Card({ titulo, preco, descricao, id }) {
-  const router = useRouter();
   return (
     <div className={styles.container}>
       <p>{titulo}</p>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import Card from "../Card";
 import styles from "./styles.module.css";
-import api from "@/services/api";
+import api from "../../services/api";
 export default function Gallery() {
   const [produtos, setProdutos] = useState([]);
   const [filter, setFilter] = useState("");
